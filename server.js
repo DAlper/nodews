@@ -17,7 +17,7 @@ res.end();
 server.listen(process.env.PORT || 3000);
 
 
-var GMT_UNIXTIME = function getCurrentTimeUTC()
+ GMT_UNIXTIME = function getCurrentTimeUTC()
 {
     //RETURN:
     //      = number of milliseconds between current UTC time and midnight of January 1, 1970
