@@ -26,4 +26,4 @@ var GMT_UNIXTIME = function getCurrentTimeUTC()
     return tmLoc.getTime() + tmLoc.getTimezoneOffset() * 60000;
 };
 
-process.stdout.write('Unix Time: ' + GMT_UNIXTIME + ' Right?\n');
+console.log('Unix Time: ' + GMT_UNIXTIME + ' Right?\n');
